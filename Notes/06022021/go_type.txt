@@ -1,0 +1,26 @@
+Basic Types
+- bool
+- string
+- int int8 int16 int32 int64  //assign - hold any (-)&(+) number as wel
+- uint uint8 unit16 unit32 //uassign - hold only (+) number only
+- byte - middle
+- rune - not for basic, representation complex character(utf-16 or utf-32)
+- float32 float64 - number with decimal
+- complex64 - not for basic, complex number.(i+x)
+
+:= shorthand only inside the function
+
+var = variable can change
+
+const = constant cannot change value
+
+group assign:   // mix type
+var {
+    a int = 2
+    b int = 4
+}
+
+Formatting
+%T
+%v
+%s
