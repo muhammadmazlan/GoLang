@@ -1,0 +1,37 @@
+#functions
+-> first class citizen
+-> "func"
+-> "func" <name> (<parameters>)(<return>){
+    <body>
+}
+
+#parameters
+func add (a int, b int)(int,int){   // need mention type explicitly
+   return a, b
+}
+
+//same as
+func nums(a,b int){
+    ...
+}
+
+res := add(1,1)
+fmt.Println(res)
+
+//multiple return values
+num1,num2 := nums(1,2)
+fmt.Println(num1)
+fmt.Println(num2)
+
+//ignore a return value
+num1, _ := nums(1,2)
+fmt.Println()
+
+#CLosure
+
+type casting
+
+reflection
+-> finding for subvariable
+-> Very expensive. Q&A -> control variable.
+
