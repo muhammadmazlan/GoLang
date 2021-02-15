@@ -14,12 +14,12 @@ func main() {
 
 func isFizzBuzz(i int) string {
 	switch {
+	case (i%3 == 0 && i%5 == 0):
+		return "fizzbuzz"
 	case i%3 == 0:
 		return "fizz"
 	case i%5 == 0:
 		return "buzz"
-	case (i%3 == 0 && i%5 == 0):
-		return "fizzbuzz"
 	default:
 		return "no go"
 	}
