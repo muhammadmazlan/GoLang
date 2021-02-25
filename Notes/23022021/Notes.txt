@@ -1,0 +1,15 @@
+# 23022021 - for-loops
+- define starting
+- "for" keyword
+- "break" to exit when condition are meet
+- "continue" to skip when condition are meet
+# range
+
+# Exercise
+
+# DEFER LIFO
+- defer stack
+
+## func tt(){
+    defer fmt.Prin
+}
